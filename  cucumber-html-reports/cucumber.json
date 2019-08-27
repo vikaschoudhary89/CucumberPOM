@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-08-26T13:14:45.372Z",
+        "line": 3,
+        "name": "Auto generating data to fill on contact us form",
+        "description": "",
+        "id": "secure-pay-contact-us-page-validation;auto-generating-data-to-fill-on-contact-us-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1655120935,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Customer launches browser",
+            "match": {
+              "location": "NavigateContactUS.Customer_launch_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6812828733,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Search for Secure pay on Google home page",
+            "match": {
+              "location": "NavigateContactUS.Google_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4748527772,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to Secure pay",
+            "match": {
+              "location": "NavigateContactUS.LaunchSecurePay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87724666,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate to Contact us page",
+            "match": {
+              "location": "NavigateContactUS.ContactUsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4476140573,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Contact us page is displayed",
+            "match": {
+              "location": "NavigateContactUS.ContactUsValidation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 653350293,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Fill the details in Contact us form",
+            "match": {
+              "location": "NavigateContactUS.FillContactUsForms()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Secure pay contact us page validation",
+    "description": "",
+    "id": "secure-pay-contact-us-page-validation",
+    "keyword": "Feature",
+    "uri": "file:SecurePay.feature",
+    "tags": []
+  }
+]
