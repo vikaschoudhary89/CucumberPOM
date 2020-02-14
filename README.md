@@ -1,5 +1,4 @@
-#TigerSpike_Test
-selenium-cucumber-java-maven-POM
+#selenium-cucumber-java-maven-POM
 
 selenium-cucumber : Automation Testing Using Page Object Model
 
